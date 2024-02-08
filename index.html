@@ -13,8 +13,9 @@
     />
 
     <title>Frontend Mentor | QR code component</title>
+    <link rel="stylesheet" href="css/reset.css" />
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
@@ -29,12 +30,20 @@
   </head>
   <body>
     <main>
-      <article>
+      <article class="qr__card">
         <figure>
-          <img src="/images/image-qr-code.png" alt="" sizes="" srcset="" />
-          <figcaption>
-            <h1>Improve your front-end skills by building projects</h1>
-            <p>
+          <img
+            class="gr__img"
+            src="/images/image-qr-code.png"
+            alt=""
+            sizes=""
+            srcset=""
+          />
+          <figcaption class="gr__content">
+            <h1 class="qr__title">
+              Improve your front-end skills by building projects
+            </h1>
+            <p class="qr__subtitle">
               Scan the QR code to visit Frontend Mentor and take your coding
               skills to the next level
             </p>
