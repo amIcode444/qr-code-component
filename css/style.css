@@ -27,7 +27,7 @@ main {
   display: flex;
   justify-content: center;
   place-content: center;
-  padding-block: 200px;
+  padding-block: 150px;
   padding-inline: 20px;
 }
 
